@@ -1,0 +1,129 @@
+.wrapper {
+  background: #3c3a39;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 24px;
+  position: absolute;
+  width: 375px;
+  height: 60px;
+  left: 0;
+}
+
+.flex-nav ul {
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.logo {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  position: static;
+  width: 77px;
+  height: 24px;
+  left: 12px;
+  top: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 0;
+}
+
+.fa-bars {
+  width: 18px;
+  height: 12px;
+  left: 3px;
+  top: 6px;
+}
+
+.headline {
+  border: 0;
+  margin: 0;
+  padding: 120px 24px;
+  background: #1c1a19;
+  background-image: url("../assets/illustration-header-mobile(1).png");
+  background-repeat: no-repeat;
+  background-position: right -10px bottom 10px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 375px;
+  left: 0;
+  top: 92px;
+}
+
+.name {
+  left: 24px;
+  top: 120px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+.profession {
+  width: 327px;
+  height: 27px;
+  left: 24px;
+  top: 256px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.task {
+  width: 327px;
+  height: 123px;
+  left: 24px;
+  top: 295px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  position: static;
+  width: 200px;
+  height: 40px;
+  left: 24px;
+  top: 430px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.fa {
+  color: white;
+  text-decoration: none;
+}
