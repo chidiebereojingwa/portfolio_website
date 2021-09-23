@@ -26,5 +26,5 @@ run the index.html
 - Twitter: [@twitterhandle](https://twitter.com/ojingwa)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/chidiebereojingwa)
 ## LICENSE
-This project is [MIT license] (LICENSE).
+This project is [MIT License] (LICENSE).
 
