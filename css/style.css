@@ -139,64 +139,45 @@ body {
 }
 
 .item-2 {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto;
+  grid-auto-rows: auto;
+  justify-content: center;
   align-items: center;
-  padding: 120px 0;
   position: absolute;
   width: 375px;
-  height: 3455px;
-  left: 0;
-  top: 682px;
+  height: 3195px;
+  margin-top: 151px;
+  top: 726px;
 }
 
 .recentWork {
   position: static;
-  left: 0;
-  top: 0;
   font-family: Crete Round, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 26px;
-  padding-top: inherit;
+  font-size: 40px;
+  margin-top: 17px;
+  margin-bottom: -20px;
+  margin-left: 35px;
   line-height: 52px;
   display: flex;
   align-items: center;
   color: #1c1a19;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0;
   padding-bottom: 40px;
-}
-
-.recentWork > img {
-  position: static;
-  width: 327px;
-  height: 0;
-  left: 0;
-  top: 107px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 24px 0;
 }
 
 .first {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 40px;
+  margin-top: -102px;
   position: static;
   width: 375px;
   height: 568px;
-  left: 0;
-  top: 0;
 }
 
 .firstProjectImg {
   position: static;
-  width: 354px;
+  width: 342px;
   height: 245px;
   left: 24px;
   margin-top: 25px;
@@ -281,20 +262,39 @@ body {
   border: 1px solid;
 }
 
-.second {
+.pos {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 40px;
+  padding-top: 34px;
   position: static;
   width: 375px;
   height: 585px;
-  margin: 7px;
   background-image: url("../assets/projectBackground1.png");
   background-size: initial;
   background-attachment: initial;
   background-position: 39px 50px;
   background-repeat: no-repeat;
+}
+
+.second {
+  margin-top: -191px;
+}
+
+.third {
+  margin-top: -391px;
+}
+
+.fourth {
+  margin-top: -410px;
+}
+
+.fifth {
+  margin-top: -394px;
+}
+
+.sixth {
+  margin-top: -399px;
 }
 
 .proArt {
@@ -315,7 +315,8 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  padding-left: 70px;
+  padding-left: 58px;
+  padding-right: 9px;
   padding-top: 3px;
   margin-top: -23px;
 }
@@ -332,7 +333,7 @@ body {
   padding-right: 131px;
   text-align: center;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 6px;
   margin-left: 39px;
   color: #fff;
   background: gray;
@@ -343,8 +344,10 @@ body {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 5px;
-  padding-left: 71px;
+  padding-left: 61px;
   margin-top: -9px;
+  margin-left: -2px;
+  margin-right: 11px;
 }
 
 .stack2 {
@@ -358,70 +361,6 @@ body {
   position: static;
   color: #fff;
   padding: 10px 12px;
-}
-
-.third {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-top: 40px;
-  position: static;
-  width: 375px;
-  height: 568px;
-  margin: -201px;
-  background-image: url(../assets/projectBackground1.png);
-  background-size: initial;
-  background-attachment: initial;
-  background-position: 39px 50px;
-  background-repeat: no-repeat;
-}
-
-.fourth {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-top: 40px;
-  position: static;
-  width: 375px;
-  height: 568px;
-  margin: 16px;
-  background-image: url(../assets/projectBackground1.png);
-  background-size: initial;
-  background-attachment: initial;
-  background-position: 39px 50px;
-  background-repeat: no-repeat;
-}
-
-.fifth {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-top: 40px;
-  position: static;
-  width: 375px;
-  height: 568px;
-  margin: -206px;
-  background-image: url("../assets/projectBackground1.png");
-  background-size: initial;
-  background-attachment: initial;
-  background-position: 39px 50px;
-  background-repeat: no-repeat;
-}
-
-.sixth {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-top: 40px;
-  position: static;
-  width: 375px;
-  height: 568px;
-  margin: 16px;
-  background-image: url(../assets/projectBackground1.png);
-  background-size: initial;
-  background-attachment: initial;
-  background-position: 39px 50px;
-  background-repeat: no-repeat;
 }
 
 .about {
@@ -699,12 +638,17 @@ body {
 
 .line {
   position: absolute;
-  top: 351px;
-  width: 364px;
-  margin-right: -49px;
+  top: 196px;
+  width: 349px;
+  margin-right: -22px;
+  margin-left: 30px;
 }
 
 .button:hover {
+  background-color: #ff6b00;
+}
+
+.button:active {
   background-color: #ff6b00;
 }
 
